@@ -1,0 +1,43 @@
+type User {
+  _id: ID!
+  firstName: String!
+  lastName: String!
+  email: String!
+  password: String!
+}
+
+type USER_SingleUserResponse implements Response {
+  ok: Boolean!
+  errors: [Error!]
+  user: User
+}
+
+type USER_MultipleUserResponse implements Response {
+  ok: Boolean!
+  errors: [Error!]
+  users: [User!]
+}
+
+type USER_LoginResponse implements Response {
+  ok: Boolean!
+  errors: [Error!]
+  user: User
+  token: String
+  refreshToken: String
+}
+
+type Query {
+  meQuery(userUUID: String): USER_SingleUserResponse!
+  getUserById(userUUID: String!): USER_SingleUserResponse!
+  getAllUsers: USER_MultipleUserResponse!
+}
+
+type Mutation {
+  login(email: String!, password: String!): USER_LoginResponse!
+  createUser(
+    firstName: String!
+    lastName: String!
+    email: String!
+    password: String!
+  ): USER_SingleUserResponse!
+}

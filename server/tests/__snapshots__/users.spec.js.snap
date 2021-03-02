@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mutation createUser Unsuccessful Missing args 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$firstName\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$lastName\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":32}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$email\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":52}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$password\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":69}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createUser Unsuccessful Wrong type of args '' of email variant 1`] = `
+Object {
+  "data": Object {
+    "createUser": Object {
+      "errors": Array [
+        Object {
+          "message": "Email is required",
+          "path": "email",
+        },
+      ],
+      "ok": false,
+      "user": null,
+    },
+  },
+}
+`;
+
+exports[`Mutation createUser Unsuccessful Wrong type of args 'bobby' of email variant 1`] = `
+Object {
+  "data": Object {
+    "createUser": Object {
+      "errors": Array [
+        Object {
+          "message": "Invalid email format",
+          "path": "email",
+        },
+      ],
+      "ok": false,
+      "user": null,
+    },
+  },
+}
+`;
+
+exports[`Mutation createUser Unsuccessful Wrong type of args 'null' of email variant 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$email\\\\\\" of non-null type \\\\\\"String!\\\\\\" must not be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":52}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createUser Unsuccessful Wrong type of args 'undefined' of email variant 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$email\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"String!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":52}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation login Unsuccessful Missing args 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$email\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$password\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":28}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation login Unsuccessful Wrong type of args '' of email variant 1`] = `
+Object {
+  "data": Object {
+    "login": Object {
+      "errors": Array [
+        Object {
+          "message": "Wrong email",
+          "path": "email",
+        },
+      ],
+      "ok": false,
+      "refreshToken": null,
+      "token": null,
+      "user": null,
+    },
+  },
+}
+`;
+
+exports[`Mutation login Unsuccessful Wrong type of args 'bobby' of email variant 1`] = `
+Object {
+  "data": Object {
+    "login": Object {
+      "errors": Array [
+        Object {
+          "message": "Wrong email",
+          "path": "email",
+        },
+      ],
+      "ok": false,
+      "refreshToken": null,
+      "token": null,
+      "user": null,
+    },
+  },
+}
+`;
+
+exports[`Mutation login Unsuccessful Wrong type of args 'null' of email variant 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$email\\\\\\" of non-null type \\\\\\"String!\\\\\\" must not be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation login Unsuccessful Wrong type of args 'undefined' of email variant 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$email\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"String!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;

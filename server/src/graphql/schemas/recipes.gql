@@ -1,0 +1,55 @@
+type Ingredient {
+  name: String!
+  amount: Int!
+}
+
+type Recipe {
+  _id: ID!
+  # userUUID: User!
+  title: String!
+  image: String
+  ingredients: [Ingredient!]
+  instructions: [String!]
+  userUUID: User
+}
+
+input Ingredient_Input {
+  name: String!
+  amount: Int!
+}
+
+type RECIPE_SingleRecipeResponse implements Response {
+  ok: Boolean!
+  errors: [Error!]
+  recipe: Recipe
+}
+
+type RECIPE_MultipleRecipeResponse implements Response {
+  ok: Boolean!
+  errors: [Error!]
+  recipes: [Recipe!]
+}
+
+type Query {
+  getRecipeById(recipeUUID: String!): RECIPE_SingleRecipeResponse!
+  getRecipeByUserUUID(userUUID: String): RECIPE_MultipleRecipeResponse!
+  getAllRecipes: RECIPE_MultipleRecipeResponse!
+}
+
+type Mutation {
+  createRecipe(
+    title: String!
+    image: String
+    ingredients: [Ingredient_Input!]!
+    instructions: [String!]!
+    userUUID: String
+  ): RECIPE_SingleRecipeResponse!
+  updateRecipeById(
+    recipeUUID: String!
+    title: String
+    image: String
+    ingredients: [Ingredient_Input!]
+    instructions: [String!]
+  ): RECIPE_SingleRecipeResponse!
+  deleteRecipeById(recipeUUID: String!): RECIPE_SingleRecipeResponse!
+}

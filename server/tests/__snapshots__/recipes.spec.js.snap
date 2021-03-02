@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mutation createRecipe Unsuccessful Missing args 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createRecipe Unsuccessful Wrong type of args '$ingredients' of ingredients variant 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"[Ingredient_Input!]!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createRecipe Unsuccessful Wrong type of args '$ingredients' of ingredients variant 2`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"[Ingredient_Input!]!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createRecipe Unsuccessful Wrong type of args '$ingredients' of ingredients variant 3`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"[Ingredient_Input!]!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createRecipe Unsuccessful Wrong type of args '$ingredients' of ingredients variant 4`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"[Ingredient_Input!]!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createRecipe Unsuccessful Wrong type of args '$ingredients' of ingredients variant 5`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"[Ingredient_Input!]!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation createRecipe Unsuccessful Wrong type of args '$ingredients' of ingredients variant 6`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" got invalid value undefined; Expected non-nullable type \\\\\\"[Ingredient_Input!]!\\\\\\" not to be null.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation deleteRecipeById Unsuccessful Missing args 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$recipeUUID\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Mutation deleteRecipeById Unsuccessful Missing recipe 1`] = `
+Object {
+  "data": Object {
+    "deleteRecipeById": Object {
+      "errors": Array [
+        Object {
+          "message": "recipe didnt exist",
+          "path": "recipe",
+        },
+      ],
+      "ok": false,
+      "recipe": null,
+    },
+  },
+}
+`;
+
+exports[`Mutation updateRecipeById Unsuccessful Missing args 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$recipeUUID\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Missing args 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$recipeUUID\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":8}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Wrong type of args '$recipeUUID' of recipeUUID variant 1`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Wrong type of args '$recipeUUID' of recipeUUID variant 2`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Wrong type of args '$recipeUUID' of recipeUUID variant 3`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Wrong type of args '$recipeUUID' of recipeUUID variant 4`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Wrong type of args '$recipeUUID' of recipeUUID variant 5`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
+
+exports[`Query getRecipeById Unsuccessful Wrong type of args '$recipeUUID' of recipeUUID variant 6`] = `
+"{\\"errors\\":[{\\"message\\":\\"Variable \\\\\\"$title\\\\\\" of required type \\\\\\"String!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":11}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$ingredients\\\\\\" of required type \\\\\\"[Ingredient_Input!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":44}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}},{\\"message\\":\\"Variable \\\\\\"$instructions\\\\\\" of required type \\\\\\"[String!]!\\\\\\" was not provided.\\",\\"locations\\":[{\\"line\\":1,\\"column\\":80}],\\"extensions\\":{\\"code\\":\\"INTERNAL_SERVER_ERROR\\"}}]}
+"
+`;
